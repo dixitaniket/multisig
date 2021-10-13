@@ -4,7 +4,6 @@ const fs= require('fs');
 const { networkInterfaces } = require('os');
 
 const rpc = "https://granadanet.smartpy.io/";
-// const signer = new InMemorySigner("edsk2tqKjthxv9LYqxZQrCBD9F5AJHEaYtGxL874i9NSjtrZkrrWBd")
 
 const Tezos = new TezosToolkit(rpc);
 
